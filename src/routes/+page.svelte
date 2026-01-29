@@ -27,7 +27,7 @@
   <h2 class="text-2xl font-bold mb-4">Grocery List</h2> 
 <!-- mb creates a header via tailwind -->
   <ul class="list-disc pl-6 space-y-2">
-    {#each groceryList as item}
+    {#each groceries as item}
       <li class="text-lg">{item}</li>
     {/each}
   </ul>
